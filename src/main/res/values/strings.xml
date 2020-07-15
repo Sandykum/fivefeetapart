@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">app for transport</string>
+
+    <array name="stopping">
+        <item>Redhills</item>
+        <item>airport</item>
+        <item>CMBT</item>
+        <item>thabharam</item>
+    </array>
+
+    <array name="busnumber">
+        <item>TN 16 N 2000</item>
+        <item>TN 17 N 2001</item>
+        <item>TN 18 N 2002</item>
+        <item>TN 19 N 2000</item>
+    </array>
+
+    <array name="metronumber">
+        <item>line 1</item>
+        <item>line 2</item>
+        <item>line 3</item>
+        <item>line 4</item>
+    </array>
+
+    <array name="trainnumber">
+        <item>169200</item>
+        <item>169201</item>
+        <item>169202</item>
+        <item>169288</item>
+    </array>
+
+</resources>

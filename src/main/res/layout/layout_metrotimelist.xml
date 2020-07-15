@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewbusstop1"
+        android:text="From">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewbusstoptime1"
+        android:layout_below="@+id/textViewbusstop1"
+        android:text="Time">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewbusstop2"
+        android:layout_below="@+id/textViewbusstoptime1"
+        android:text="From">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewbusstoptime2"
+        android:layout_below="@+id/textViewbusstop2"
+        android:text="To">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewbusstop3"
+        android:layout_below="@+id/textViewbusstoptime2"
+        android:text="From">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewbusstoptime3"
+        android:layout_below="@+id/textViewbusstop3"
+        android:text="To">
+    </EditText>
+
+</RelativeLayout>

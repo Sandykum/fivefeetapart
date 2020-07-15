@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutuspage">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:id="@+id/backgroundimg"
+        android:src="@drawable/aboutbackdround"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/backgroundimg"
+        android:layout_marginTop="25dp"
+        android:id="@+id/backgroundid"
+        android:textStyle="bold"
+        android:textColor="@color/pinky"
+        android:text="FOR CANCELLING BOOKED TICKETS CONTACT BELOW NUMBER">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/backgroundid"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:text="1234567890">
+
+    </TextView>
+</RelativeLayout>

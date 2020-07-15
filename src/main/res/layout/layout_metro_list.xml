@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="SANJAY"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="PHONE NUMBER"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/textViewphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Metro Number"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/textViewnumber"
+        android:layout_below="@id/textViewphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="From"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/textViewFrom"
+        android:layout_below="@id/textViewnumber"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="270dp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewnumber"
+        android:layout_marginTop="-19dp"
+        android:layout_marginStart="201dp"
+        android:layout_marginEnd="61dp"
+        android:text="To"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+
+</LinearLayout>

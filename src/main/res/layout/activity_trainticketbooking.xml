@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.appfortransport.trainticketbooking">
+
+
+    <EditText
+        android:id="@+id/editTextNametrain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="2dp"
+        android:hint="Enter name" />
+
+    <EditText
+        android:id="@+id/editTextphonetrain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="61dp"
+        android:layout_below="@id/editTextNametrain"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="2dp"
+        android:hint="Enter Phone Number" />
+
+    <Spinner
+        android:id="@+id/editTexttrainnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextphonetrain"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="2dp"
+        android:hint="Enter Train Number"
+        android:entries="@array/trainnumber"/>
+
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTexttrainnumber"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="2dp"
+        android:text="From" />
+
+    <Spinner
+        android:id="@+id/spinnertrain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/from"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="2dp"
+        android:entries="@array/stopping"></Spinner>
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnertrain"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="2dp"
+        android:text="To" />
+
+    <Spinner
+        android:id="@+id/spinnertrain1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/to"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="2dp"
+        android:entries="@array/stopping"></Spinner>
+
+    <TextView
+        android:id="@+id/trainseatbooked"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/spinnertrain1"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"></TextView>
+
+    <TextView
+        android:id="@+id/tainseatbooked"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/spinnertrain1"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="2dp"></TextView>
+
+    <TextView
+        android:id="@+id/tvtrainDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/trainseatbooked"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginTop="7dp"
+        android:text="SELECT DATE"
+        android:textAlignment="center" />
+
+
+    <Button
+        android:id="@+id/buttonAddtrain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvtrainDate"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="5dp"
+        android:text="Add" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAddtrain"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="61dp"
+        android:text="TRAINS"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="25dp"
+        android:text="Tap on an Train  to add and view stopings"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>

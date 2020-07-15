@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminloginpage">
+
+    <EditText
+        android:id="@+id/etuseremail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="38dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="EMAIL"
+        app:layout_constraintBottom_toTopOf="@+id/etuserpassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etuserpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="364dp"
+        android:ems="10"
+        android:layout_below="@+id/etuseremail"
+        android:inputType="textPassword"
+        android:hint="PASSWORD"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/etuseremail" />
+
+    <Button
+        android:id="@+id/olduserreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="-260dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="71dp"
+        android:layout_below="@+id/etuserpassword"
+        android:text="LOGIN"
+        android:textSize="24sp" />
+
+
+
+</RelativeLayout>
